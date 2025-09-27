@@ -1,32 +1,32 @@
-export const myProjects = [
-  {
-    id: 1,
-    title: "E‑Commerce SKU Sales Forecasting & Anomaly Detection",
-    discription: "Forecasted weekly sales for 200+ SKUs using Facebook Prophet, improving inventory accuracy by 25% and reducing stockouts.",
-    href: "",
-    image: "",
-    tags: [
-      { id: 1, name: "Python" },
-      { id: 2, name: "Facebook Prophet" },
-      { id: 3, name: "Anomaly Detection" },
-      { id: 4, name: "Tableau" },
-    ],
-  },
-  {
-    id: 2,
-    title: "End‑to‑End ETL from GA4 & HubSpot to PostgreSQL",
-    discription: " Developed an Airflow ETL pipeline integrating Google Analytics and HubSpot CRM into PostgreSQL, cutting data prep time by 40%",
-    href: "",
-    image: "",
-    tags: [
-      { id: 1, name: "Airflow" },
-      { id: 2, name: "PostgreSQL" },
-      { id: 3, name: "Google Analytics" },
-      { id: 4, name: "HubSpot" },
-      { id: 5, name: "ETL" },
-    ],
-  },
-];
+// export const myProjects = [
+//   {
+//     id: 1,
+//     title: "E‑Commerce SKU Sales Forecasting & Anomaly Detection",
+//     discription: "Forecasted weekly sales for 200+ SKUs using Facebook Prophet, improving inventory accuracy by 25% and reducing stockouts.",
+//     href: "",
+//     image: "",
+//     tags: [
+//       { id: 1, name: "Python" },
+//       { id: 2, name: "Facebook Prophet" },
+//       { id: 3, name: "Anomaly Detection" },
+//       { id: 4, name: "Tableau" },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     title: "End‑to‑End ETL from GA4 & HubSpot to PostgreSQL",
+//     discription: " Developed an Airflow ETL pipeline integrating Google Analytics and HubSpot CRM into PostgreSQL, cutting data prep time by 40%",
+//     href: "",
+//     image: "",
+//     tags: [
+//       { id: 1, name: "Airflow" },
+//       { id: 2, name: "PostgreSQL" },
+//       { id: 3, name: "Google Analytics" },
+//       { id: 4, name: "HubSpot" },
+//       { id: 5, name: "ETL" },
+//     ],
+//   },
+// ];
 
 export const mySocials = [
   {

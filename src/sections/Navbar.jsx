@@ -37,7 +37,7 @@ function Navigation({ onNavClick }) {
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work" onClick={(e) => handleLinkClick(e, 'work')}>
+        <a className="nav-link" href="#Experiences" onClick={(e) => handleLinkClick(e, 'Experiences')}>
           Work
         </a>
       </li>

@@ -10,7 +10,13 @@ const Footer = () => {
       </div>
       <div className="flex gap-3">
         {mySocials.map((social, index) => (
-          <a href={social.href} key={index} className="hover:opacity-80 transition-opacity">
+          <a 
+            href={social.href} 
+            key={index} 
+            className="hover:opacity-80 transition-opacity"
+            target={social.name.toLowerCase() === "linkedin" ? "_blank" : "_self"}
+            rel={social.name.toLowerCase() === "linkedin" ? "noopener noreferrer" : ""}
+          >
             <img src={social.icon} className="w-5 h-5" alt={social.name} />
           </a>
         ))}
