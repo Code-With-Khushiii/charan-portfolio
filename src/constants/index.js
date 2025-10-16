@@ -1,32 +1,33 @@
-// export const myProjects = [
-//   {
-//     id: 1,
-//     title: "E‑Commerce SKU Sales Forecasting & Anomaly Detection",
-//     discription: "Forecasted weekly sales for 200+ SKUs using Facebook Prophet, improving inventory accuracy by 25% and reducing stockouts.",
-//     href: "",
-//     image: "",
-//     tags: [
-//       { id: 1, name: "Python" },
-//       { id: 2, name: "Facebook Prophet" },
-//       { id: 3, name: "Anomaly Detection" },
-//       { id: 4, name: "Tableau" },
-//     ],
-//   },
-//   {
-//     id: 2,
-//     title: "End‑to‑End ETL from GA4 & HubSpot to PostgreSQL",
-//     discription: " Developed an Airflow ETL pipeline integrating Google Analytics and HubSpot CRM into PostgreSQL, cutting data prep time by 40%",
-//     href: "",
-//     image: "",
-//     tags: [
-//       { id: 1, name: "Airflow" },
-//       { id: 2, name: "PostgreSQL" },
-//       { id: 3, name: "Google Analytics" },
-//       { id: 4, name: "HubSpot" },
-//       { id: 5, name: "ETL" },
-//     ],
-//   },
-// ];
+export const myProjects = [
+  {
+    id: 1,
+    title: "Real Time Recommender System — Kafka, Storm, Cassandra",
+    discription: "Crafted a distributed, low-latency recommender pipeline processing 1M+ events/sec via Kafka and Storm, storing real time user interactions in Cassandra to deliver instant recommendations",
+    href: "https://github.com/saicharanvarmadandu/StreamlineSuggest-Real-Time-Product-Recommendation-System-Using-Apache-Spark-Kafka-MongoDB-and-Flask",
+    image: "",
+    tags: [
+      { id: 1, name: "Jupyter Notebook" },
+
+      { id: 2, name: "Python" },
+      { id: 3, name: "HTML" },
+      { id: 4, name: "CSS" },
+      { id: 4, name: "javascript" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Live Product Recommendation Platform — Spark, Kafka, MongoDB, Flask",
+    discription: " Built an end-to-end data streaming platform using Spark and Kafka to generate personalized product recommendations, visualized live via Flask UI backed by MongoDB",
+    href: "https://github.com/saicharanvarmadandu/real-time-recommender",
+    image: "",
+    tags: [
+      { id: 1, name: "Scala" },
+      { id: 2, name: "Shell" },
+      { id: 3, name: "Dockerfile" },
+    
+    ],
+  },
+];
 
 export const mySocials = [
   {

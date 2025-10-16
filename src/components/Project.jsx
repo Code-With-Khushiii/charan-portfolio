@@ -26,7 +26,7 @@ const Project = ({
             ))}
           </div>
         </div>
-        {/* <a
+        <a
          href={href}
          target="_blank"
          rel="noopener noreferrer"
@@ -34,9 +34,9 @@ const Project = ({
        >
          Read More
          <img src="assets/arrow-right.svg" className="w-5" />
-       </a> */}
+       </a>
       </div>
-      {/* <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
+      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       {isHidden && (
         <ProjectDetails
           title={title}
@@ -47,7 +47,7 @@ const Project = ({
           href={href}
           closeModal={() => setIsHidden(false)}
         />
-      )} */}
+      )}
     </>
   );
 };
