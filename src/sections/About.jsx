@@ -28,7 +28,9 @@ const About = () => {
               Hi, I'm Sai Charan Varma Dandu
             </p>
             <p className="subtext mt-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-100">
-              Data Engineer with 6+ years of experience designing and scaling data pipelines, ETL workflows, and multi‑cloud architectures across AWS, Azure, and GCP. Boosted processing efficiency up to 45%, improved query performance by 40%, and accelerated deployments by 50% through automation and CI/CD. Specialized in big data, real‑time streaming, and enterprise data warehousing to enable analytics, predictive models, and executive decision‑making.
+              Data Engineer with 6+ years of designing and scaling data pipelines, ETL workflows, and multi-cloud architectures across AWS, Azure, and GCP. Boosted processing
+              efficiency by 45%, improved query performance by 40%, and accelerated deployments by 50% through automation, CI/CD, Snowflake, and Databricks. Focused on
+              big data, real-time streaming, and data warehousing to drive analytics, ML models, and business decisions.
             </p>
           </div>
         </div>
@@ -82,11 +84,11 @@ const About = () => {
           </div>
         </div>
         {/* Grid 3 */}
-        <div className="grid-black-color grid-3">
+          <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I'm based in Arlington, TX, USA and open to remote or hybrid roles.
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">

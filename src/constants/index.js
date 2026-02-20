@@ -2,8 +2,9 @@ export const myProjects = [
   {
     id: 1,
     title: "Real Time Recommender System — Kafka, Storm, Cassandra",
-    discription: "Crafted a distributed, low-latency recommender pipeline processing 1M+ events/sec via Kafka and Storm, storing real time user interactions in Cassandra to deliver instant recommendations",
-    href: "https://github.com/saicharanvarmadandu/StreamlineSuggest-Real-Time-Product-Recommendation-System-Using-Apache-Spark-Kafka-MongoDB-and-Flask",
+    discription:
+      "Crafted a distributed, low-latency recommender pipeline processing 1M+ events/sec via Kafka and Storm, storing real-time user interactions in Cassandra to deliver instant recommendations.",
+    href: "https://github.com/saicharanvarmadandu/real-time-recommender",
     image: "",
     tags: [
       { id: 1, name: "Jupyter Notebook" },
@@ -17,8 +18,9 @@ export const myProjects = [
   {
     id: 2,
     title: "Live Product Recommendation Platform — Spark, Kafka, MongoDB, Flask",
-    discription: " Built an end-to-end data streaming platform using Spark and Kafka to generate personalized product recommendations, visualized live via Flask UI backed by MongoDB",
-    href: "https://github.com/saicharanvarmadandu/real-time-recommender",
+    discription:
+      "Built an end-to-end data streaming platform using Spark and Kafka to generate personalized product recommendations, visualized live via a Flask UI backed by MongoDB.",
+    href: "https://github.com/saicharanvarmadandu/StreamlineSuggest-Real-Time-Product-Recommendation-System-Using-Apache-Spark-Kafka-MongoDB-and-Flask",
     image: "",
     tags: [
       { id: 1, name: "Scala" },
@@ -44,13 +46,11 @@ export const experiences = [
     date: "Jul. 2024 – Present",
     location: "Fort Worth, TX",
     contents: [
-      "Engineered distributed ingestion across Azure Databricks, AWS Glue, and GCP Dataflow, boosting throughput by 35% and lowering analytics latency.",
-      "Built enterprise data lakes/warehouses (ADLS, Redshift, BigQuery), improving query speed by 40% and reducing storage costs via partitioning and compression.",
-      "Orchestrated batch/streaming ETL with Spark, Kafka, and Hadoop handling multi‑TB datasets and sub‑second real‑time ingestion.",
-      "Established multi‑cloud CI/CD with Azure DevOps, Jenkins, Terraform, and Kubernetes, cutting deployments by 50% and ensuring reproducible releases.",
-      "Delivered BI dashboards (Tableau, Power BI, Looker) for real‑time KPIs, accelerating executive decision‑making by 40%.",
-      "Implemented governance (GDPR, CCPA), RBAC, and encryption for secure, audit‑ready hybrid architectures.",
-      "Partnered with finance, actuarial, IT, and data science to enable predictive analytics and cost reductions via automation.",
+      "Created and optimized data pipelines and warehouses on Azure (Data Factory, Synapse, Fabric, Stream Analytics, Data Lake Storage, Cosmos DB, Key Vault), improving processing speed by 35%, reducing query time by 40%, and cutting storage costs with partitioning and compression.",
+      "Orchestrated batch and streaming ETL pipelines with Spark, Databricks, Kafka, and Hadoop, processing multi-terabyte datasets daily, achieving sub-second real-time ingestion, and standardizing error handling for higher reliability.",
+      "Established CI/CD pipelines using Azure DevOps, Jenkins, Terraform, and Kubernetes, cutting deployment timelines by 50%, ensuring reproducible, version-controlled releases, and supporting rapid experimentation in production.",
+      "Developed interactive, self-service analytics dashboards with Tableau, Power BI, and Looker, integrating Azure and Snowflake datasets to deliver real-time KPI visibility that accelerated C-suite decision-making by 40% and reduced reliance on manual reporting.",
+      "Partnered with cross-functional stakeholders (finance, actuarial, IT, and data science teams) to translate business requirements into scalable data products, enabling predictive analytics, machine learning pipelines, and operational cost reductions through data-driven automation.",
     ],
   },
   {
@@ -59,11 +59,10 @@ export const experiences = [
     date: "Nov. 2022 – Jun. 2024",
     location: "Dallas, TX",
     contents: [
-      "Automated ETL with AWS Glue, ADF, and GCP Dataflow, cutting prep time by 45% and enabling ML model access to clean data.",
-      "Scaled real‑time ingestion with Kinesis, Event Hubs, and Kafka, increasing streaming throughput by 50% for patient and clinical data.",
-      "Architected data warehouses (Redshift, Synapse, BigQuery), shortening query times by 40% and enabling cross‑cloud federated queries.",
-      "Deployed CI/CD (CodePipeline, Azure DevOps, Jenkins) with Terraform and Kubernetes, streamlining releases by 55%.",
-      "Delivered BI dashboards (Tableau, Power BI, Looker) for executives, accelerating strategic decision‑making by 35%.",
+      "Engineered and automated ETL pipelines with AWS Glue, Snowflake, RDS, DynamoDB, EMR, Athena, IAM, and Step Functions, cutting data preparation time by 45% and supporting ML and analytics pipelines.",
+      "Scaled real-time ingestion platforms with Amazon Kinesis and Kafka, increasing streaming throughput by 50% and ensuring uninterrupted availability of patient, clinical, and operational data for downstream analytics and compliance reporting.",
+      "Architected cloud-native data warehouses on Amazon Redshift, shortening query response times by 40%, enabling cross-cloud federated queries, and supporting enterprise-wide analytics for financial forecasting and patient care optimization.",
+      "Deployed automated CI/CD pipelines using AWS CodePipeline, Azure DevOps, and Jenkins, integrating infrastructure-as-code with Terraform, Kubernetes, and Databricks workflows to streamline releases by 55%, eliminate manual deployment bottlenecks, and ensure consistent, error-free production rollouts.",
     ],
   },
   {
@@ -72,9 +71,9 @@ export const experiences = [
     date: "Sep. 2021 – Jul. 2022",
     location: "Hyderabad, India",
     contents: [
-      "Built multi‑cloud pipelines across AWS (Glue, Redshift, S3), Azure (Synapse, Databricks), and GCP (BigQuery, Dataflow, Dataproc) improving processing efficiency by 45%.",
-      "Automated ETL/streaming with Spark, Kafka, Pub/Sub, Informatica, and Python handling 10M+ records/day and raising throughput by 50%.",
-      "Delivered BI dashboards in Power BI/Tableau/Looker and enforced CI/CD, RBAC, and compliance (HIPAA, GDPR, CCPA).",
+      "Architected data pipelines across GCP (BigQuery, Dataflow, Dataproc), boosting processing efficiency by 45% and enhancing analytics query performance by 40%.",
+      "Automated ETL and streaming workflows with Spark, Kafka, Pub/Sub, Informatica, Snowflake, and Python, handling ingestion volumes exceeding 10M records per day and raising integration throughput by 50% to support real-time reporting.",
+      "Delivered BI dashboards in Power BI, Tableau, and Looker, linked to GCP platforms and Databricks pipelines, while enforcing CI/CD pipelines, RBAC, and compliance (GDPR, CCPA) to ensure secure, scalable data delivery.",
     ],
   },
   {
@@ -83,9 +82,9 @@ export const experiences = [
     date: "Jun. 2019 – Jul. 2021",
     location: "Hyderabad, India",
     contents: [
-      "Designed high‑volume data pipelines using Python, PySpark, Hive SQL, Presto, and Cassandra/HDFS, improving query efficiency by 40%.",
-      "Streamlined ETL with Spark, Hive, and SSIS, cutting transformation time by 50% via advanced SQL/Python cleansing.",
-      "Deployed cloud‑native architectures with AWS, Docker, Kubernetes, and Jenkins CI/CD; delivered dashboards powered by BigQuery and Presto.",
+      "Designed and optimized high-volume data pipelines using Python, PySpark, Hive SQL, Snowflake, Presto, and Cassandra/HDFS, integrating over 10M daily records and improving enterprise query efficiency by 40%.",
+      "Streamlined ETL workflows with Spark, Hive, and SSIS, integrating structured and unstructured data sources and cutting transformation time by 50% through advanced SQL and Python-based data cleansing.",
+      "Deployed cloud-native architectures with AWS, Docker, Kubernetes, and Jenkins CI/CD, while delivering Tableau dashboards powered by BigQuery and Presto SQL, accelerating business decision-making speed by 30%.",
     ],
   },
 ];
